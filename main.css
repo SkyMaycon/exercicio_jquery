@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(137, 43, 226, 0.158);
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    margin: 300px auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 9px;
+
+}
+
+input, button{
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    border-color: rgb(129, 35, 218);
+    color: black;
+    }
+
+form button:hover {
+    background-color: rgba(130, 35, 218, 0.637);   
+}
+
+form button {
+    background-color: rgba(137, 43, 226, 0.24);
+    color: #fff;
+    cursor: pointer;
+    width: 70%;
+    margin-left: 100px;
+}
+
+.listas {
+    margin: 15px;
+    list-style-type:none;
+    font-size: 25px;
+    text-align: center;
+}
+
+.riscar {
+    text-decoration: line-through;
+}
+
+
